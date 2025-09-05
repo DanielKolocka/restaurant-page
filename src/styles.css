@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+
+}
+body {
+  background: url("../img/seaToPlate.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  list-style: none;
+}
+
+li {
+  margin: 0 20px;
+  color: white;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 40px;
+} 
+
