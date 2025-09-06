@@ -27,6 +27,12 @@ li {
   margin: 0 20px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.75); /* Change background on hover */
+  color: lightgray;
 }
 
 #content {
@@ -88,7 +94,7 @@ li {
 }
 
 .aboutUsText {
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.75;
   /* margin-bottom: 20px; */
   text-align: center;
